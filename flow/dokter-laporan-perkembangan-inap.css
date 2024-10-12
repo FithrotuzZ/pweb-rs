@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif, Arial, Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    background: #F2F4F5;
+    position: relative;
+}
+
+nav{
+  margin: auto;
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90.22deg, #7298D1 0%, #ACC2E4 66.32%, #DDE0E4 101.87%);
+}
+
+nav .logo{
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.logo h3{
+color: white;
+font-size: 18px;
+font-weight: 700;
+text-align: center;
+margin-left: 270px;
+}
+
+.menu .menu-icon{
+  font-size: 30px;
+  color: white;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.user {
+margin-right: 100px;
+display: flex;
+}
+
+.user a{
+text-decoration: none;
+}
+
+.user .user-name {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  align-items: center;
+  float: left;
+  margin: 10px;
+}
+
+.user .user-icon {
+  font-size: 40px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  float: right;
+  align-items: center;
+  margin: auto;
+}
+
+nav .sidebar{
+  position: fixed;
+  top: 75px;
+  left: -100%;
+  height: 100%;
+  width: 270px;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
+nav.open .sidebar{
+  left: 0;
+}
+
+.sidebar .sb-menu{
+position: fixed;
+left: 0px;
+top: 0px;
+width: 270px;
+height: 75px;
+display: flex;
+align-items: center;
+background-color: #92B1E0;
+}
+
+.sb-menu .menu-icon{
+font-size: 30px;
+color: white;
+margin: 20px 20px 20px 40px;
+cursor: pointer;
+}
+
+.sb-menu .menu-text{
+color: white;
+font-size: 15px;
+font-weight: 700;
+cursor: pointer;
+}
+
+.sb-profile a{
+text-decoration: none;
+margin: 50px 50px 30px 50px;
+display: flex;
+}
+
+.sb-profile .user-name {
+  color: #454544;
+  font-size: 18px;
+  font-weight: 500;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.sb-profile .user-icon {
+  font-size: 50px;
+  color: #454544;
+  cursor: pointer;
+  align-items: center;
+  margin: auto;
+}
+
+.sidebar .sb-content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0px 20px;
+}
+
+.sb-content .list{
+  list-style: none;
+}
+
+.sb-content .list ul{
+list-style: none;
+}
+
+.sb-content .list ul li a{
+font-size: 13px;
+color: #454544;
+margin-left: 40px;
+}
+
+.list .nav-link{
+  display: flex;
+  align-items: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.nav-link:hover{
+  background-color: #7298D1;
+}
+
+.nav-link .icon{
+  margin-right: 14px;
+  font-size: 24px;
+  color: #454544;
+}
+
+.nav-link .link{
+  font-size: 14px;
+  color: #454544;
+  font-weight: 400;
+}
+
+.nav-link:hover .icon, 
+.nav-link:hover .link{
+  color: white;
+}
+
+/*isi laporan perkembangan*/
+.lap-pasien{
+  margin-top: 100px;
+  width: 100%;
+  position: flex;
+  align-items: center;
+}
+
+.title-laporan{
+  margin-left:30px;
+  text-align: left;
+}
+
+.title-laporan h1{
+  text-align: left;
+  font-size: 25px;
+  margin-left: 100px;;
+  ;
+}
+.title-laporan h3{
+  text-align: left;
+  font-size: 15px;
+  margin-left: 100px;
+}
+
+.back-btn{
+  float: left;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  margin: 10px 0px 20px 20px;
+  cursor: pointer;
+  padding: 0px;
+  background-color:transparent;
+  border-color: transparent;
+}
+
+
+.box1{
+  text-align: left;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px 20px 200px 20px;
+  margin-right: 90px;
+  margin-left: 90px;
+  margin-top: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+#table1{
+  border-collapse: collapse;
+  width: 80%;
+  font-size: 14px;
+}
+
+#table2{
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table2 th{
+  text-align: center;
+  padding: 5px 20px 5px 20px;
+  font-size: 12px;
+}
+
+#table2 tr{
+  padding: 5px 20px 5px 20px;
+  font-size: 12px;
+  border-bottom: 1px solid #ddd;
+  margin: 100px;
+}
+
+#table2 td{
+  padding-bottom: 60px ;
+}
+/*
+.laporan-btn{
+  color: white;
+  position: absolute;
+  background: #92B1E0;
+  border-radius: 15px;
+  border: 0px;
+  padding: 4px;
+  align-items: center;
+}
+*/
+
+/*footer*/
+footer {
+    position: relative;
+    bottom:0;
+    width:100%;
+    height:20px; 
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2c2c2c;
+    background: white;
+    text-align: center;
+    padding: 30px 0;
+}
