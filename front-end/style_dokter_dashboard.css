@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif, Arial, Helvetica;
+  margin: 0;
+  padding: 0;
+  color: #2c2c2c;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  min-height: 100%;
+  background: #F2F4F5;
+  position: relative;
+}
+
+nav{
+  margin: auto;
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90.22deg, #7298D1 0%, #ACC2E4 66.32%, #DDE0E4 101.87%);
+}
+
+nav .logo{
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.logo h3{
+color: white;
+font-size: 18px;
+font-weight: 700;
+text-align: center;
+margin-left: 270px;
+}
+
+.menu .menu-icon{
+  font-size: 30px;
+  color: white;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.user {
+margin-right: 100px;
+display: flex;
+}
+
+.user a{
+text-decoration: none;
+}
+
+.user .user-name {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  align-items: center;
+  float: left;
+  margin: 10px;
+}
+
+.user .user-icon {
+  font-size: 40px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  float: right;
+  align-items: center;
+  margin: auto;
+}
+
+nav .sidebar{
+  position: fixed;
+  top: 75px;
+  left: -100%;
+  height: 100%;
+  width: 270px;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
+nav.open .sidebar{
+  left: 0;
+}
+
+.sidebar .sb-menu{
+position: fixed;
+left: 0px;
+top: 0px;
+width: 270px;
+height: 75px;
+display: flex;
+align-items: center;
+background-color: #92B1E0;
+}
+
+.sb-menu .menu-icon{
+font-size: 30px;
+color: white;
+margin: 20px 20px 20px 40px;
+cursor: pointer;
+}
+
+.sb-menu .menu-text{
+color: white;
+font-size: 15px;
+font-weight: 700;
+cursor: pointer;
+}
+
+.sb-profile a{
+text-decoration: none;
+margin: 50px 50px 30px 50px;
+display: flex;
+}
+
+.sb-profile .user-name {
+  color: #454544;
+  font-size: 18px;
+  font-weight: 500;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.sb-profile .user-icon {
+  font-size: 50px;
+  color: #454544;
+  cursor: pointer;
+  align-items: center;
+  margin: auto;
+}
+
+.sidebar .sb-content{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0px 20px;
+}
+
+.sb-content .list{
+  list-style: none;
+}
+
+.sb-content .list ul{
+list-style: none;
+}
+
+.sb-content .list ul li a{
+font-size: 13px;
+color: #454544;
+margin-left: 40px;
+}
+
+.list .nav-link{
+  display: flex;
+  align-items: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.nav-link:hover{
+  background-color: #7298D1;
+}
+
+.nav-link .icon{
+  margin-right: 14px;
+  font-size: 24px;
+  color: #454544;
+}
+
+.nav-link .link{
+  font-size: 14px;
+  color: #454544;
+  font-weight: 400;
+}
+
+.nav-link:hover .icon, 
+.nav-link:hover .link{
+  color: white;
+}
+
+
+/*isi dashboard*/
+.dashboard{
+    margin-top: 120px;
+    text-align: center;
+    width: 100%;
+    position: flex;
+    align-items: center;
+}
+
+.profil1 .icon-dashboard{
+  font-size: 100px;
+  color: #2c2c2c;
+  /*text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.profil1 h2 {
+  font-size: 25px;
+}
+
+.profil1 p{
+  font-size: 15px;
+  margin: 5px;
+}
+
+.profil1 h3 {
+  font-size: 15px;
+  margin: 5px;
+}
+
+.profil2{
+  text-align: left;
+  position: flex;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profil2 .sub-p2{
+  margin: 20px 0px;
+  border-bottom: 2px solid #ddd;
+}
+
+.profil2 p{
+  font-size: 15px;
+}
+
+/*logout*/
+.tbl-logout{
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+a.tbl-logout {
+  background: #3f72af;
+  border-radius: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: bold;
+  margin: auto;
+  text-decoration: none;
+}
+
+a.tbl-logout:hover {
+  background: #ff4949;
+  text-decoration: none;
+}
+
+p.tbl-logout {
+  margin-top: 50px;
+  padding: 10px 0px 10px 0px;
+}
+
+/*footer*/
+footer {
+    position: relative;
+    bottom:0;
+    width:100%;
+    height:20px; 
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2c2c2c;
+    background: white;
+    text-align: center;
+    padding: 30px 0;
+}
