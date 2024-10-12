@@ -1,0 +1,456 @@
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    position: relative;
+    width: 100%;
+    background: linear-gradient(180deg, #7399D1 31.86%, #FEFFFE 100%);
+}
+
+.wrapper {
+    width: 1440px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 25px;
+    font-weight: 700;
+    float: left;
+    color: #7399D1;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #7399D1;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.tbl-signup {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-signup:hover {
+    background: #7e7e7e;
+    text-decoration: none;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 470px;
+    height: 320px;
+    margin: 150px 50px 20px 50px;
+    position: relative;
+
+}
+
+/*home*/
+
+.kolom1{
+    margin: 150px 50px 20px 50px;
+}
+
+.tagline {
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+    margin: 0px 0px 0px 80px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    line-height: 30px;
+    margin: 20px 0px 20px 80px;
+
+}
+
+a.tbl-login {
+    background: #3f72af;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+a.tbl-login:hover {
+    background: #7e7e7e;
+    text-decoration: none;
+}
+
+p.tbl-login {
+    margin: 50px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+footer {
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:20px; 
+    font-family: sans-serif;
+    background: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/*profil*/
+
+.kolom2 h3 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    line-height: 30px;
+    margin: 100px 0px 20px 150px;
+}
+
+.visi {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    float: right;
+    line-height: 25px;
+    margin-bottom: 20px;
+
+}
+
+ol {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    float: right;
+    line-height: 25px;
+}
+
+.kolom2{
+    margin: 20px 0px 20px 100px;
+} 
+
+/*fasilitas*/
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+
+.kolom3 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    margin-top: 0px;
+} /*fasilitas - layanan kami*/
+
+.layanan-kami {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.layanan {
+    margin: 0 auto;
+}
+
+.layanan img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.layanan p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.kolom4 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    margin-top: 100px;
+} /*fasilitas - poliklinik*/
+
+.list-poliklinik {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 50px 0px 50px;
+}
+
+.poli {
+    margin: 0 auto;
+}
+
+.poli img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 50px;
+}
+
+.poli p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.kolom5 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    margin-top: 100px;
+} /*fasilitas - instalasi*/
+
+.list-instalasi {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 50px 0px 50px;
+}
+
+.instalasi {
+    margin: 0 auto;
+}
+
+.instalasi img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 50px;
+}
+
+.instalasi p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.kolom6 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    margin-top: 100px;
+} /*fasilitas - laboratorium*/
+
+.list-lab {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 50px 0px 50px;
+}
+
+.lab {
+    margin: 0 auto;
+}
+
+.lab img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 50px;
+}
+
+.lab p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    margin-bottom: 100px;
+}
+
+/*pusat terapi*/
+.kolom7 h3 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    line-height: 20px;
+    text-align: left;
+    margin: 70px 50px 20px 20px;
+}
+
+.kolom7 p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    line-height: 30px;
+    text-align: left;
+    margin: 50px 50px 20px 20px;
+
+}
+
+.pusat-terapi img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    margin-top: 50px;
+}
+
+/*farmasi*/
+.kolom8 h3 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    line-height: 20px;
+    text-align: left;
+    margin: 70px 50px 20px 20px;
+}
+
+.kolom8 p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    line-height: 30px;
+    text-align: left;
+    margin: 50px 50px 20px 20px;
+}
+
+.farmasi img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    margin-top: 50px;
+}
+
+/*jadwal praktek*/
+.kolom9 p{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    margin: 0px 0px 50px 0px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #E4ECF9;
+    margin: auto;
+
+}
+  
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/*alur pelayanan*/
+.kolom10{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.kolom10 h3{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.kolom10 img {
+    width: 590px;
+    height: 620px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.kolom10 p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 20px;
+}
+
